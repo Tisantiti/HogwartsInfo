@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F18AB5429BE61F400D21A6B /* CharacterDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F18AB5329BE61F400D21A6B /* CharacterDetailVM.swift */; };
+		9F18AB5729BE66F400D21A6B /* HouseBackgroundViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F18AB5629BE66F400D21A6B /* HouseBackgroundViewModifier.swift */; };
+		9F2CBB4E29BDDF5A004D1F24 /* CharactersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CBB4D29BDDF5A004D1F24 /* CharactersListView.swift */; };
+		9F2CBB5029BDE268004D1F24 /* CharacterImageCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CBB4F29BDE268004D1F24 /* CharacterImageCellView.swift */; };
+		9F2CBB5229BDE913004D1F24 /* AdditionalInfoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CBB5129BDE913004D1F24 /* AdditionalInfoListView.swift */; };
+		9F2CBB5529BDEA4D004D1F24 /* AdditionalInfoCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CBB5429BDEA4D004D1F24 /* AdditionalInfoCellView.swift */; };
+		9F2CBB5729BDEEF1004D1F24 /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CBB5629BDEEF1004D1F24 /* CharacterDetailView.swift */; };
+		9F2F864E29BE6F5900963E4D /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F864D29BE6F5900963E4D /* ErrorView.swift */; };
+		9F2F865029BE6FF800963E4D /* AlertErrorViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F864F29BE6FF800963E4D /* AlertErrorViewModifier.swift */; };
+		9F787AEE29B64FA700D9A182 /* HogwartsInfoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F787AED29B64FA700D9A182 /* HogwartsInfoApp.swift */; };
+		9F787AF029B64FA700D9A182 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F787AEF29B64FA700D9A182 /* ContentView.swift */; };
+		9F787AF229B64FA900D9A182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F787AF129B64FA900D9A182 /* Assets.xcassets */; };
+		9F787AF529B64FA900D9A182 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F787AF429B64FA900D9A182 /* Preview Assets.xcassets */; };
+		9F787B0329B6500C00D9A182 /* SpellsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F787B0229B6500C00D9A182 /* SpellsListView.swift */; };
+		9F787B0F29B6520D00D9A182 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F787B0E29B6520D00D9A182 /* Model.swift */; };
+		9F787B1129B652CF00D9A182 /* HogwartsInfoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F787B1029B652CF00D9A182 /* HogwartsInfoVM.swift */; };
+		9F787B1429B6534600D9A182 /* NetworkPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F787B1329B6534600D9A182 /* NetworkPersistence.swift */; };
+		9F787B1729B6536400D9A182 /* NetworkURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F787B1629B6536400D9A182 /* NetworkURL.swift */; };
+		9F787B1A29B6549700D9A182 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F787B1929B6549700D9A182 /* NetworkRequest.swift */; };
+		9F787B1C29B6550F00D9A182 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F787B1B29B6550F00D9A182 /* ErrorModel.swift */; };
+		9F787B1E29B6555A00D9A182 /* MainTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F787B1D29B6555A00D9A182 /* MainTab.swift */; };
+		9F787B2329B6586600D9A182 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F787B2229B6586600D9A182 /* LoaderView.swift */; };
+		9FC3783929B947160092C8DC /* BooksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC3783829B947160092C8DC /* BooksListView.swift */; };
+		9FC3783B29B947230092C8DC /* BookCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC3783A29B947230092C8DC /* BookCellView.swift */; };
+		9FFEA34629B65C7300BCE618 /* SpellCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFEA34529B65C7300BCE618 /* SpellCellView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F18AB5329BE61F400D21A6B /* CharacterDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailVM.swift; sourceTree = "<group>"; };
+		9F18AB5629BE66F400D21A6B /* HouseBackgroundViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseBackgroundViewModifier.swift; sourceTree = "<group>"; };
+		9F2CBB4D29BDDF5A004D1F24 /* CharactersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListView.swift; sourceTree = "<group>"; };
+		9F2CBB4F29BDE268004D1F24 /* CharacterImageCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterImageCellView.swift; sourceTree = "<group>"; };
+		9F2CBB5129BDE913004D1F24 /* AdditionalInfoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInfoListView.swift; sourceTree = "<group>"; };
+		9F2CBB5429BDEA4D004D1F24 /* AdditionalInfoCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInfoCellView.swift; sourceTree = "<group>"; };
+		9F2CBB5629BDEEF1004D1F24 /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
+		9F2CBB5829BE0666004D1F24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9F2F864D29BE6F5900963E4D /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		9F2F864F29BE6FF800963E4D /* AlertErrorViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertErrorViewModifier.swift; sourceTree = "<group>"; };
+		9F787AEA29B64FA700D9A182 /* HogwartsInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HogwartsInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F787AED29B64FA700D9A182 /* HogwartsInfoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogwartsInfoApp.swift; sourceTree = "<group>"; };
+		9F787AEF29B64FA700D9A182 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F787AF129B64FA900D9A182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F787AF429B64FA900D9A182 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F787B0229B6500C00D9A182 /* SpellsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsListView.swift; sourceTree = "<group>"; };
+		9F787B0E29B6520D00D9A182 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9F787B1029B652CF00D9A182 /* HogwartsInfoVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogwartsInfoVM.swift; sourceTree = "<group>"; };
+		9F787B1329B6534600D9A182 /* NetworkPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPersistence.swift; sourceTree = "<group>"; };
+		9F787B1629B6536400D9A182 /* NetworkURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkURL.swift; sourceTree = "<group>"; };
+		9F787B1929B6549700D9A182 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		9F787B1B29B6550F00D9A182 /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		9F787B1D29B6555A00D9A182 /* MainTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTab.swift; sourceTree = "<group>"; };
+		9F787B2229B6586600D9A182 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		9FC3783829B947160092C8DC /* BooksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksListView.swift; sourceTree = "<group>"; };
+		9FC3783A29B947230092C8DC /* BookCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCellView.swift; sourceTree = "<group>"; };
+		9FFEA34529B65C7300BCE618 /* SpellCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellCellView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F787AE729B64FA700D9A182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F18AB5529BE66E300D21A6B /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				9F18AB5629BE66F400D21A6B /* HouseBackgroundViewModifier.swift */,
+				9F2F864F29BE6FF800963E4D /* AlertErrorViewModifier.swift */,
+			);
+			name = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		9F2CBB4C29BDDF43004D1F24 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				9F2CBB4D29BDDF5A004D1F24 /* CharactersListView.swift */,
+				9F2CBB4F29BDE268004D1F24 /* CharacterImageCellView.swift */,
+				9F2CBB5629BDEEF1004D1F24 /* CharacterDetailView.swift */,
+			);
+			name = Characters;
+			sourceTree = "<group>";
+		};
+		9F2CBB5329BDE916004D1F24 /* AdditionalInfo */ = {
+			isa = PBXGroup;
+			children = (
+				9F2CBB5129BDE913004D1F24 /* AdditionalInfoListView.swift */,
+				9F2CBB5429BDEA4D004D1F24 /* AdditionalInfoCellView.swift */,
+			);
+			name = AdditionalInfo;
+			sourceTree = "<group>";
+		};
+		9F787AE129B64FA700D9A182 = {
+			isa = PBXGroup;
+			children = (
+				9F787AEC29B64FA700D9A182 /* HogwartsInfo */,
+				9F787AEB29B64FA700D9A182 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F787AEB29B64FA700D9A182 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F787AEA29B64FA700D9A182 /* HogwartsInfo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F787AEC29B64FA700D9A182 /* HogwartsInfo */ = {
+			isa = PBXGroup;
+			children = (
+				9F18AB5529BE66E300D21A6B /* ViewModifiers */,
+				9F2CBB5829BE0666004D1F24 /* Info.plist */,
+				9F787B2129B6585B00D9A182 /* Components */,
+				9F787B1229B6533A00D9A182 /* Persistence */,
+				9F787B0D29B6520400D9A182 /* Model */,
+				9F787B0A29B6517900D9A182 /* ViewModels */,
+				9F787B0729B6511F00D9A182 /* Views */,
+				9F787AED29B64FA700D9A182 /* HogwartsInfoApp.swift */,
+				9F787AEF29B64FA700D9A182 /* ContentView.swift */,
+				9F787AF129B64FA900D9A182 /* Assets.xcassets */,
+				9F787AF329B64FA900D9A182 /* Preview Content */,
+			);
+			path = HogwartsInfo;
+			sourceTree = "<group>";
+		};
+		9F787AF329B64FA900D9A182 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F787AF429B64FA900D9A182 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F787B0729B6511F00D9A182 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F2CBB5329BDE916004D1F24 /* AdditionalInfo */,
+				9F2CBB4C29BDDF43004D1F24 /* Characters */,
+				9FC3783629B947040092C8DC /* Books */,
+				9F787B2029B6556500D9A182 /* Spells */,
+				9F787B1D29B6555A00D9A182 /* MainTab.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9F787B0A29B6517900D9A182 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9F18AB5329BE61F400D21A6B /* CharacterDetailVM.swift */,
+				9F787B1029B652CF00D9A182 /* HogwartsInfoVM.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		9F787B0D29B6520400D9A182 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F787B0E29B6520D00D9A182 /* Model.swift */,
+				9F787B1B29B6550F00D9A182 /* ErrorModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9F787B1229B6533A00D9A182 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				9F787B1329B6534600D9A182 /* NetworkPersistence.swift */,
+				9F787B1629B6536400D9A182 /* NetworkURL.swift */,
+				9F787B1929B6549700D9A182 /* NetworkRequest.swift */,
+			);
+			name = Persistence;
+			sourceTree = "<group>";
+		};
+		9F787B2029B6556500D9A182 /* Spells */ = {
+			isa = PBXGroup;
+			children = (
+				9F787B0229B6500C00D9A182 /* SpellsListView.swift */,
+				9FFEA34529B65C7300BCE618 /* SpellCellView.swift */,
+			);
+			name = Spells;
+			sourceTree = "<group>";
+		};
+		9F787B2129B6585B00D9A182 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9F787B2229B6586600D9A182 /* LoaderView.swift */,
+				9F2F864D29BE6F5900963E4D /* ErrorView.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		9FC3783629B947040092C8DC /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				9FC3783829B947160092C8DC /* BooksListView.swift */,
+				9FC3783A29B947230092C8DC /* BookCellView.swift */,
+			);
+			name = Books;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F787AE929B64FA700D9A182 /* HogwartsInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F787AF829B64FA900D9A182 /* Build configuration list for PBXNativeTarget "HogwartsInfo" */;
+			buildPhases = (
+				9F787AE629B64FA700D9A182 /* Sources */,
+				9F787AE729B64FA700D9A182 /* Frameworks */,
+				9F787AE829B64FA700D9A182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HogwartsInfo;
+			productName = HogwartsInfo;
+			productReference = 9F787AEA29B64FA700D9A182 /* HogwartsInfo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F787AE229B64FA700D9A182 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					9F787AE929B64FA700D9A182 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 9F787AE529B64FA700D9A182 /* Build configuration list for PBXProject "HogwartsInfo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F787AE129B64FA700D9A182;
+			productRefGroup = 9F787AEB29B64FA700D9A182 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F787AE929B64FA700D9A182 /* HogwartsInfo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F787AE829B64FA700D9A182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F787AF529B64FA900D9A182 /* Preview Assets.xcassets in Resources */,
+				9F787AF229B64FA900D9A182 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F787AE629B64FA700D9A182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2F865029BE6FF800963E4D /* AlertErrorViewModifier.swift in Sources */,
+				9F787B1C29B6550F00D9A182 /* ErrorModel.swift in Sources */,
+				9F18AB5429BE61F400D21A6B /* CharacterDetailVM.swift in Sources */,
+				9FC3783B29B947230092C8DC /* BookCellView.swift in Sources */,
+				9F2CBB5029BDE268004D1F24 /* CharacterImageCellView.swift in Sources */,
+				9F2CBB5729BDEEF1004D1F24 /* CharacterDetailView.swift in Sources */,
+				9F2CBB5529BDEA4D004D1F24 /* AdditionalInfoCellView.swift in Sources */,
+				9F787B2329B6586600D9A182 /* LoaderView.swift in Sources */,
+				9F2CBB5229BDE913004D1F24 /* AdditionalInfoListView.swift in Sources */,
+				9F787B1729B6536400D9A182 /* NetworkURL.swift in Sources */,
+				9F787B0F29B6520D00D9A182 /* Model.swift in Sources */,
+				9F787B0329B6500C00D9A182 /* SpellsListView.swift in Sources */,
+				9FC3783929B947160092C8DC /* BooksListView.swift in Sources */,
+				9F787B1E29B6555A00D9A182 /* MainTab.swift in Sources */,
+				9F787AF029B64FA700D9A182 /* ContentView.swift in Sources */,
+				9F787B1129B652CF00D9A182 /* HogwartsInfoVM.swift in Sources */,
+				9F787B1429B6534600D9A182 /* NetworkPersistence.swift in Sources */,
+				9F18AB5729BE66F400D21A6B /* HouseBackgroundViewModifier.swift in Sources */,
+				9F2CBB4E29BDDF5A004D1F24 /* CharactersListView.swift in Sources */,
+				9FFEA34629B65C7300BCE618 /* SpellCellView.swift in Sources */,
+				9F787AEE29B64FA700D9A182 /* HogwartsInfoApp.swift in Sources */,
+				9F787B1A29B6549700D9A182 /* NetworkRequest.swift in Sources */,
+				9F2F864E29BE6F5900963E4D /* ErrorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9F787AF629B64FA900D9A182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F787AF729B64FA900D9A182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F787AF929B64FA900D9A182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HogwartsInfo/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Y5G9RYLF8Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HogwartsInfo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cat.tv3.tv3.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match Development cat.tv3.tv3.dev";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F787AFA29B64FA900D9A182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HogwartsInfo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HogwartsInfo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cat.tv3.tv3.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F787AE529B64FA700D9A182 /* Build configuration list for PBXProject "HogwartsInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F787AF629B64FA900D9A182 /* Debug */,
+				9F787AF729B64FA900D9A182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F787AF829B64FA900D9A182 /* Build configuration list for PBXNativeTarget "HogwartsInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F787AF929B64FA900D9A182 /* Debug */,
+				9F787AFA29B64FA900D9A182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F787AE229B64FA700D9A182 /* Project object */;
+}
